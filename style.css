@@ -106,7 +106,7 @@ body {
   margin-left: -150px;
 }
 
-/* ---------- Desktops / Laptops (≤1600px) ---------- */
+
 @media screen and (max-width: 1600px) {
   .img-section {
   grid-column: 1 / 4;
@@ -198,7 +198,7 @@ body {
   }
   .text-section li:nth-child(3) {
     font-size: 1.5rem;
-    padding-left: 50px;
+    text-align: center;
   }
 }
 
@@ -219,7 +219,7 @@ body {
 
     .text-section li:nth-child(3) {
     font-size: 1.5rem;
-    padding-left: 50px;
+    text-align: center;
   }
 }
 
@@ -239,7 +239,7 @@ body {
   }
   .text-section li:nth-child(3) {
     font-size: 1.8rem;
-    padding-left: 50px;
+    text-align: center;
   }
 }
 
@@ -269,7 +269,7 @@ body {
   }
   .text-section li:nth-child(3) {
     font-size: 1.8rem;
-    padding-left: 50px;
+    text-align: center;
   }
 }
 
@@ -298,7 +298,8 @@ body {
   }
   .text-section li:nth-child(3) {
     font-size: 1.2rem;
-    padding-left: 60px;
+    text-align: center;
   }
 }
+
 
