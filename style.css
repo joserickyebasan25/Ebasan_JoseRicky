@@ -65,7 +65,7 @@ body {
 
 .img-section img {
   width: 100%;
-  max-height: 500px;
+  max-height:300px;
   height: auto;
   border-radius: 50%;
   box-shadow: 5px 15px 50px 0px black;
@@ -312,7 +312,7 @@ body {
   }
 
   .img-section img {
-    width: 100%;
+    width: auto;
     max-height: 250px;
   }
 
@@ -328,6 +328,7 @@ body {
     text-align: center;
   }
 }
+
 
 
 
