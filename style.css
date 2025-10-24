@@ -203,7 +203,6 @@ body {
 }
 }
 
-
 @media screen and (max-width: 870px) {
   .img-section img {
     width: 60%;
@@ -231,6 +230,17 @@ body {
     max-height: 250px;
   }
 
+.nav-links {
+    display: none;
+  }
+
+  #menu {
+    display: block;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+  }
+  
   .text-section li:nth-child(1) {
     font-size: 2.5rem;
   }
@@ -250,10 +260,15 @@ body {
     font-size: 2.5rem;
   }
 
+  .nav-links {
+    display: none;
+  }
+
   #menu {
-    font-size: 2rem;
-    right: 25px;
-    top: 25px;
+    display: block;
+    position: absolute;
+    right: 40px;
+    top: 40px;
   }
 
   .img-section img {
@@ -279,10 +294,17 @@ body {
     font-size: 2rem;
   }
 
+  .nav-links {
+    display: none;
+
+  }
+
   #menu {
-    font-size: 2rem;
-    right: 25px;
-    top: 25px;
+    display: block;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+
   }
 
   .img-section img {
@@ -302,4 +324,5 @@ body {
     text-align: center;
   }
 }
+
 
