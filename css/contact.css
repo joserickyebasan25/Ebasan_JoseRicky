@@ -99,6 +99,10 @@ body {
   color: white;
 }
 
+.text-section ul {
+  list-style: none;
+}
+
 @media screen and (max-width: 1200px) {
   .navbar {
     flex-direction: column;
@@ -264,5 +268,4 @@ body {
   .text-section {
     padding: 20px;
   }
-
   
