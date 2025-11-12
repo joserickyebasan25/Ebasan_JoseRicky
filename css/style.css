@@ -174,14 +174,23 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  .navbar {
+    padding: 20px;
+  }
+
   #logo {
     font-size: 1.5rem;
   }
 
   #menu {
     font-size: 2rem;
-    right: 25px;
-    top: 25px;
+    top: 20px;
+    right: 20px;
+  }
+
+  .nav-links {
+    font-size: 1rem;
+    gap: 10px;
   }
 
   .img-section img {
@@ -199,6 +208,25 @@ body {
 }
 
 @media screen and (max-width: 320px) {
+  .navbar {
+    padding: 20px;
+  }
+
+  #logo {
+    font-size: 1.5rem;
+  }
+
+  #menu {
+    font-size: 2rem;
+    top: 20px;
+    right: 20px;
+  }
+
+  .nav-links {
+    font-size: 1rem;
+    gap: 10px;
+  }
+  
   .img-section img {
     width: 70%;
   }
@@ -211,3 +239,4 @@ body {
     font-size: 0.7rem;
   }
 }
+
